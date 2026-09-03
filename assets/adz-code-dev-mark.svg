@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+<title id="title">ADZ Code Dev</title><desc id="desc">Dark circular ADZ developer mark in blue, cyan and violet.</desc>
+<defs>
+  <radialGradient id="bg" cx="50%" cy="42%" r="64%"><stop offset="0" stop-color="#111b35"/><stop offset="0.68" stop-color="#060a12"/><stop offset="1" stop-color="#020306"/></radialGradient>
+  <linearGradient id="ring" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#8ce7ff"/><stop offset="0.42" stop-color="#369dff"/><stop offset="1" stop-color="#7d55ff"/></linearGradient>
+  <linearGradient id="adz" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#f3f6ff"/><stop offset="0.52" stop-color="#cbd7ef"/><stop offset="1" stop-color="#50b7ff"/></linearGradient>
+  <filter id="glow"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<circle cx="256" cy="256" r="238" fill="url(#bg)" stroke="#152340" stroke-width="4"/>
+<circle cx="256" cy="256" r="224" fill="none" stroke="url(#ring)" stroke-width="10" filter="url(#glow)"/>
+<circle cx="256" cy="256" r="205" fill="none" stroke="#318bff" stroke-opacity=".28" stroke-width="2"/>
+<g fill="none" stroke="#48b8ff" stroke-opacity=".42" stroke-width="3">
+ <path d="M74 190h72l26-26h42M438 190h-72l-26-26h-42"/><path d="M66 225h94l26-22h32M446 225h-94l-26-22h-32"/><path d="M70 310h80l30 24h38M442 310h-80l-30 24h-38"/>
+</g>
+<g transform="translate(198 75)" fill="none" stroke="url(#ring)" stroke-width="9" stroke-linecap="round" stroke-linejoin="round" filter="url(#glow)">
+ <path d="M13 44l32-24 32 24v46L45 114 13 90z"/><path d="M35 52L22 65l13 13M55 52l13 13-13 13M49 48L40 82"/>
+</g>
+<text x="256" y="302" text-anchor="middle" fill="url(#adz)" font-family="Arial,Segoe UI,sans-serif" font-size="142" font-weight="800" letter-spacing="-10">ADZ</text>
+<text x="256" y="360" text-anchor="middle" fill="#9bd9ff" font-family="Arial,Segoe UI,sans-serif" font-size="36" font-weight="700" letter-spacing="14">CODE DEV</text>
+<text x="256" y="406" text-anchor="middle" fill="#b9c9e7" font-family="Arial,Segoe UI,sans-serif" font-size="24" letter-spacing="3">adz-code-dev.pl</text>
+</svg>
