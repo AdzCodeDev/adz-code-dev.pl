@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>AAD · GitHub Actions Reporting · ADZ Code Dev</title>
+  <meta name="description" content="Official OAuth verification homepage for AAD · GitHub Actions Reporting.">
+  <link rel="canonical" href="https://adz-code-dev.pl/">
+  <link rel="stylesheet" href="/styles.css">
+  <link rel="icon" href="/assets/adz-code-dev-mark.svg">
+</head>
+<body>
+  <div class="shell">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/">
+        <img class="brand-logo" src="/assets/adz-code-dev-mark.svg" alt="ADZ Code Dev logo" width="54" height="54">
+        <span class="brand-text">
+          <strong>ADZ Code Dev</strong>
+          <span>AAD · GitHub Actions Reporting</span>
+        </span>
+      </a>
+      <div class="links">
+        <a class="active" href="/">Home</a>
+        <a href="/privacy/">Privacy</a>
+        <a href="/terms/">Terms</a>
+        <a href="/support/">Support</a>
+      </div>
+    </nav>
+    <main>
+      <section class="hero">
+        <p class="eyebrow">OAuth verification homepage</p>
+        <h1>AAD · GitHub Actions Reporting</h1>
+        <p class="lead">AAD · GitHub Actions Reporting is an operator-facing Google Apps Script utility used to materialize GitHub Actions reporting data into Google Sheets. It reads selected reporting source files from Google Drive, writes structured reporting views into Google Sheets, and can install a time-based Apps Script trigger for recurring refresh.</p>
+        <div class="badge-row" aria-label="Core platform badges">
+          <span class="badge">Google Apps Script</span><span class="badge">Google Sheets</span><span class="badge">Google Drive · read-only</span><span class="badge">OAuth verified-use workflow</span>
+        </div>
+      </section>
+
+      <section class="section">
+        <h2>What this application does</h2>
+        <div class="grid">
+          <article class="card"><h3>Reads reporting source data</h3><p>The script reads operator-selected GitHub Actions reporting artifacts stored in Google Drive, including the run index and source files needed for a refresh.</p></article>
+          <article class="card"><h3>Writes reporting views</h3><p>The script updates destination Google Sheets workbooks with structured reporting tables used by the operator and related reporting dashboards.</p></article>
+          <article class="card"><h3>Supports scheduled refresh</h3><p>The script can create and manage a Google Apps Script installable trigger so refresh checks can run while the operator is not present.</p></article>
+        </div>
+      </section>
+
+      <section class="section">
+        <h2>Google OAuth scopes</h2>
+        <p>The application requests only the scopes required by the reporting workflow.</p>
+        <table class="table"><thead><tr><th>Scope</th><th>Purpose</th></tr></thead><tbody>
+          <tr><td><code class="inline">.../auth/spreadsheets</code></td><td>Read and update the Google Sheets workbooks used for reporting output.</td></tr>
+          <tr><td><code class="inline">.../auth/drive.readonly</code></td><td>Read required source artifacts from Google Drive without modifying, sharing, or deleting Drive content.</td></tr>
+          <tr><td><code class="inline">.../auth/script.scriptapp</code></td><td>Create and manage the installable Apps Script trigger used for automated refresh execution.</td></tr>
+        </tbody></table>
+      </section>
+
+      <section class="section">
+        <h2>Data handling</h2>
+        <div class="note">The application does not use advertising, profiling, third-party analytics, cookies, or an external data-processing backend. Google user data is used only to provide the reporting functionality described on this page.</div>
+        <ul>
+          <li>Google Drive access is read-only.</li>
+          <li>Reporting data remains within the operator's Google Drive / Google Sheets environment.</li>
+          <li>No Google user data is sold or used for advertising.</li>
+          <li>No Google user data is used to train general-purpose AI or machine-learning models.</li>
+        </ul>
+        <p><strong>Limited Use:</strong> AAD · GitHub Actions Reporting's use of information received from Google APIs adheres to the <a href="https://developers.google.com/terms/api-services-user-data-policy" rel="noopener">Google API Services User Data Policy</a>, including the Limited Use requirements.</p>
+        <p>See the <a href="/privacy/">Privacy Policy</a> for the complete disclosure and the <a href="/terms/">Terms of Service</a> for terms governing use of the utility.</p>
+      </section>
+
+      <section class="section"><h2>Support</h2><p>OAuth and application support: <a href="mailto:adz.prime.origin@gmail.com">adz.prime.origin@gmail.com</a>.</p><p>See the <a href="/support/">Support</a> page for the reporting-utility support scope.</p></section>
+    </main>
+    <footer class="footer"><strong>ADZ Code Dev</strong><br>Public OAuth verification surface for AAD · GitHub Actions Reporting.<br><a href="/privacy/">Privacy</a> · <a href="/terms/">Terms</a> · <a href="/support/">Support</a><br>Last updated: 2026-09-03</footer>
+  </div>
+</body>
+</html>
